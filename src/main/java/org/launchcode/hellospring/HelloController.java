@@ -66,8 +66,8 @@ public class HelloController {
     public String helloForm() {
         return "<html>" +
                 "<body>" +
-                "<form action = '/hello' method = 'post'>" + // submit a request to /hello
-                "<label for='lang-select'>Select Language:</label>" +
+                "<form action = '/hello' method = 'post'>" + // submit a post request to /hello
+                "<label for='lang-select'>Select Language:</label>" + //dropdown menu for languages
                 "<select name='lang' id='lang-select'>" +
                    "<option value='english'>English</option>" +
                     "<option value='klingon'>Klingon</option>" +
